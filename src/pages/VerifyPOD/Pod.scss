@@ -1,0 +1,198 @@
+@import "../../styles/item_attributes.scss";
+
+.sub-content {
+    margin-left: 3%;
+    margin-top: 3%;
+    .booking-num {
+        display: flex;
+        flex: 1;
+        .booking-label {
+            font: normal normal normal 18px/20px Dubai;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            margin-left: 3%;
+        }
+    }
+}
+.box_shadow {
+    @include box_shadow;
+    .first-row {
+        display: flex;
+        flex: 1;
+        border-bottom: 2px solid #ededed;
+        padding-bottom: 0.8rem;
+        margin-bottom: 0.6rem;
+        .cont-num {
+            display: flex;
+            width: 45%;
+            flex-direction: column;
+            .cont-label {
+                @include grayLabel;
+            }
+            .cont-dynamic-num {
+                @include lightBlackText;
+                font-size: 14px;
+                margin-top: 0.6rem;
+            }
+        }
+        .cont-type {
+            display: flex;
+            width: 40%;
+            flex-direction: column;
+            .cont-typelabel {
+                @include grayLabel;
+            }
+            .cont-dynamic-type {
+                @include lightBlackText;
+                font-size: 14px;
+                margin-top: 0.6rem;
+            }
+        }
+        .consignee-detail {
+            display: flex;
+            width: 40%;
+            flex-direction: column;
+            .consi-detail-label {
+                @include grayLabel;
+            }
+            .consi-dynamic-detail {
+                @include lightBlackText;
+                font-size: 14px;
+                margin-top: 0.6rem;
+            }
+        }
+    }
+    .second-row {
+        display: flex;
+        flex: 1;
+        border-bottom: 2px solid #ededed;
+        padding-bottom: 1.2rem;
+        margin-bottom: 1.2rem;
+        .pickup {
+            display: flex;
+            width: 40%;
+            flex-direction: column;
+            .pickup-label {
+                @include grayLabel;
+            }
+            .pickup-dynamic-loc {
+                @include lightBlackText;
+                font-size: 14px;
+                margin-top: 0.6rem;
+            }
+        }
+        .drop-detail {
+            display: flex;
+            width: 40%;
+            flex-direction: column;
+            .drop-detail-label {
+                @include grayLabel;
+            }
+            .drop-detail-dynamic {
+                @include lightBlackText;
+                font-size: 14px;
+                margin-top: 0.6rem;
+                text-decoration: underline;
+                color: #1360d2;
+            }
+        }
+        .date {
+            display: flex;
+            width: 40%;
+            //flex-direction: column;
+            .date-icon {
+                margin-right: 2rem;
+            }
+            .consi-dynamic-detail {
+                @include lightBlackText;
+                font-size: 14px;
+                color: #505050;
+            }
+        }
+    }
+    .third-row {
+        display: flex;
+        flex: 1;
+        // margin-bottom: 1.2rem;
+        .icon1 {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+        }
+        .icon2 {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            border-left: 2px solid #b4c6ce;
+        }
+        .icon3 {
+            display: flex;
+            flex: 1;
+            //justify-content: center;
+            border-left: 2px solid #b4c6ce;
+            .center-align {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex: 1;
+            }
+            .download-icon {
+                display: flex;
+                flex: 1;
+                margin-left: 0.3rem;
+                align-items: center;
+                .download-pod {
+                    text-align: left;
+                    font: normal normal normal 14px/20px Dubai-Regular;
+                    letter-spacing: 0px;
+                    color: #000000;
+                    opacity: 1;
+                    font-weight: 600;
+                    font-family: "Dubai-Light";
+                    //margin-top: 0.6rem;
+                    text-decoration: underline;
+                    color: #1360d2;
+                }
+            }
+        }
+    }
+}
+.list-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10%;
+    //justify-content: center;
+    //align-items: center;
+}
+.line-row {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    //width: 95%;
+    .row-item1 {
+        display: flex;
+        //flex: 1;
+        width: 20%;
+    }
+    .row-item2 {
+        display: flex;
+        //flex: 1;
+        width: 60%;
+    }
+    .row-item3 {
+        display: flex;
+        // flex: 1;
+        width: 20%;
+        flex-direction: row-reverse;
+    }
+}
+.red-border {
+    border: 1px solid #ff3e3e;
+}
+.sla-position {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+}

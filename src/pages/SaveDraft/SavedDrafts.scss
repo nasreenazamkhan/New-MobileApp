@@ -1,0 +1,91 @@
+@import "../../styles/item_attributes.scss";
+.box_shadow {
+    @include box_shadow;
+    .draft-container {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        .draft-icon {
+            display: flex;
+            width: 15%;
+        }
+        .draft-col {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin-left: 2%;
+            margin-right: 4%;
+            .boldBlackText {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #0e1b3d;
+            }
+            .saved-date {
+                display: flex;
+
+                .lightGrayLable {
+                    @include grayLabel;
+                }
+                .center-align {
+                    display: flex;
+                    flex: 1;
+                    justify-content: center;
+                }
+            }
+            .lightBlackText {
+                opacity: 1;
+                font-family: "Dubai-Light";
+                font-weight: 600;
+                color: #0e1b3d;
+            }
+        }
+    }
+}
+.draft-popup {
+    padding: 7%;
+    margin-right: 4%;
+
+    .draft-label {
+        @include boldDarkText;
+        font-weight: 600;
+        display: flex;
+        flex: 1;
+    }
+    .draft-button {
+        display: flex;
+        flex: 1;
+        border-top: 1px solid;
+        padding-top: 10%;
+        margin-top: 15%;
+        .button2 {
+            display: flex;
+            flex: 1;
+            flex-direction: row-reverse;
+            text-decoration: underline;
+            font: normal normal normal 20px/34px Dubai;
+            letter-spacing: 0px;
+            color: #007fff;
+            opacity: 1;
+        }
+        .button1 {
+            text-decoration: underline;
+            font: normal normal normal 20px/34px Dubai;
+            letter-spacing: 0px;
+            color: #686868;
+            opacity: 1;
+            display: flex;
+            flex: 1;
+        }
+    }
+}
+.warning-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: "Dubai-Light";
+    color: #168fe4;
+    opacity: 1;
+}

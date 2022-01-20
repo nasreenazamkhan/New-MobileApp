@@ -1,0 +1,85 @@
+@import "../../styles/item_attributes.scss";
+
+.profile-page {
+  z-index: 201 !important;
+  .profile-menu-content {
+    position: relative;
+    // --background: #{$darkBlue};
+    --background: url("/assets/img/menuPage.svg") no-repeat cover fixed center;
+    background: url("/assets/img/menuPage.svg") no-repeat;
+    background-size: 100%;
+    --color: #{$white};
+
+    .close-icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .dt-icon {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-top: 9%;
+      display: flex;
+      flex: 1;
+      /* align-items: center; */
+      justify-content: center;
+      margin-bottom: 26%;
+      .icon-logo {
+        width: 9rem;
+        height: 9rem;
+      }
+    }
+
+    .menu-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 95%;
+
+      ul {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 30%;
+        li {
+          text-transform: capitalize;
+          list-style: none;
+          padding: 0px;
+          margin: 0px;
+          font-size: 1.5rem;
+          display: flex;
+          align-items: center;
+          margin-left: 20px;
+          padding-bottom: 20px;
+
+          ion-icon {
+            margin-right: 10px;
+          }
+          .drafts-count-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2rem;
+            width: 2rem;
+            background-color: #fe9999;
+            border-radius: 1rem;
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+
+    .tnc {
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+}
+.center-align {
+  display: flex;
+  align-items: center;
+}

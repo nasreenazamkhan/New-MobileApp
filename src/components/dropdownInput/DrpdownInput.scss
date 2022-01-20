@@ -1,0 +1,123 @@
+@import "../../styles/item_attributes.scss";
+
+.form-element-group {
+  @include form_element_group;
+
+  fieldset {
+    border-style: solid;
+    border-color: #d1d3d8;
+    height: auto;
+
+    border-style: solid;
+    border: 0.13rem solid #b8bcc7;
+    border-radius: 0.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+
+    legend {
+      font-weight: 600;
+      padding-left: 2px;
+      padding-right: 3px;
+      background-color: #ffffff;
+      color: #b8bcc7;
+    }
+  }
+
+  ion-select {
+    @include componentStyle;
+    // --padding-start: 10px;
+    // font-weight: bold;
+    // width: 100%;
+    min-height: 1rem;
+    height: auto;
+    --padding-top: 0;
+    --padding-bottom: unset;
+    color: #000;
+    .dropdownInput {
+      font-family: "Dubai-Regular";
+      font-weight: 600;
+      font-size: 1rem;
+      color: red;
+    }
+  }
+
+  ion-select::part(text) {
+    white-space: normal !important;
+    margin-top: 5px;
+  }
+  // ion-select::part(text) {
+  //   background-image: url('/assets/icon/calendar.svg');
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  // }
+  // ion-select::part(icon) {
+  //   display: none !important;
+  // }
+  ion-select.select-disabled {
+    opacity: 1;
+  }
+
+  .errors {
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+
+  .description {
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+}
+
+ion-item.selectAddAddr {
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Dubai";
+  letter-spacing: 0px;
+  color: $formFieldBlue;
+  opacity: 1;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: underline;
+}
+.selectAddAddr ion-radio {
+  --color: white;
+}
+
+.my-custom-interface {
+  --width: 80%;
+  left: 10% !important;
+  right: 10% !important;
+  border-radius: 5px;
+}
+ion-select::part(icon) {
+  display: none;
+  //background-image: url("/assets/icon/arrow-down.svg");
+
+  border: unset;
+}
+
+ion-select::part(placeholder) {
+  //background-image: url("/assets/icon/arrow-down.svg");
+  // background-position: right;
+  // background-repeat: no-repeat;
+  // background-size: 50%;
+  text-align: left;
+  font: normal normal normal 14px/21px Dubai-Light;
+  letter-spacing: 0px;
+  color: #090909;
+  opacity: 1;
+  font-weight: bold;
+}
+.leftGap {
+  left: 1rem;
+}
+.rightGap {
+  right: 1rem;
+}
+.select-interface-option ion-label.sc-ion-select-popover {
+  white-space: normal;
+}

@@ -1,0 +1,54 @@
+@import "../../../../styles/item_attributes.scss";
+
+.componentMargins {
+    @include componentMargins;
+    margin-top: 3%;
+    padding-left: 3%;
+
+    .ion-text-end {
+        text-align: end;
+    }
+    .bold-font {
+        font: normal normal normal 14px/27px Dubai;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-weight: bold;
+    }
+}
+ion-router-outlet {
+    overflow: auto;
+    padding-bottom: 13rem;
+}
+.gray-label {
+    font: normal normal normal 14px/24px Dubai-Light;
+    letter-spacing: 0px;
+    color: #505050;
+    font-weight: bold;
+}
+.invoice-card-cont {
+    margin-top: 2rem;
+}
+.gray-text {
+    @include grayText;
+    font-size: unset;
+    //font: unset;
+}
+.black-text {
+    font: normal normal normal 14px/27px Dubai-Light;
+    letter-spacing: 0px;
+    color: #434343;
+    opacity: 1;
+    font-weight: bold;
+}
+div.smallUnderline::after {
+    top: 1.5rem;
+    left: 0.5%;
+}
+.invoice-book-container {
+    margin-top: 0.5rem;
+}
+.invoicecard-cont {
+    border-top: 2px solid #cbc9c9;
+    padding-bottom: 0.5rem;
+}

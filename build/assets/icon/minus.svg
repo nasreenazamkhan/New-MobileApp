@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="action_icon-round-button" data-name="action/icon-round-button" transform="translate(0.5 0.5)">
+    <g id="plus" transform="translate(8.079 8.078)">
+      <path id="Shape" d="M0,0H4.162" transform="translate(0 2.081)" fill="none" stroke="#0568ae" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <circle id="round" cx="10" cy="10" r="10" fill="none" stroke="#0568ae" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

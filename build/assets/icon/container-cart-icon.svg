@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="76" viewBox="0 0 76 76">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5959"/>
+      <stop offset="1" stop-color="#d00b0b"/>
+    </linearGradient>
+    <filter id="Ellipse_1" x="0" y="0" width="76" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="-4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.123" y1="1.117" x2="0.843" y2="0.372" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Container_cart_icon" data-name="Container cart icon" transform="translate(-181.5 -755.5)">
+    <g transform="matrix(1, 0, 0, 1, 181.5, 755.5)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="24.5" cy="24.5" r="24.5" transform="translate(9.5 17.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="container-crane" d="M.549,31.9h31.9a.55.55,0,0,0,.55-.55V18.15a.55.55,0,0,0-.55-.55H21.677l-4.825-4.825a2.743,2.743,0,0,0,1.3-2.325.55.55,0,1,0-1.1,0,1.65,1.65,0,0,1-1,1.518l-.257-.257a.55.55,0,0,0-.763-.014l-.284.263A1.65,1.65,0,0,1,15.4,8.8a.55.55,0,0,0,.55-.55V6.522A2.2,2.2,0,0,0,17.6,4.4V2.75a.55.55,0,0,0-.55-.55h-1.1V0h-1.1V2.2h-1.1a.55.55,0,0,0-.55.55V4.4a2.2,2.2,0,0,0,1.65,2.122V7.755a2.746,2.746,0,0,0-.955,4.991L8.668,17.6H.549a.55.55,0,0,0-.55.55v13.2a.55.55,0,0,0,.55.55ZM14.3,4.4V3.3h2.2V4.4a1.1,1.1,0,0,1-2.2,0ZM31.9,30.8h-11V18.7h11ZM15.06,13.166a2.772,2.772,0,0,0,.339.034,2.673,2.673,0,0,0,.293-.03l4.43,4.43H10.284ZM1.1,18.7H19.8V30.8H1.1Zm16.5,2.75v6.6a.55.55,0,0,1-1.1,0v-6.6a.55.55,0,0,1,1.1,0Zm5.5,6.6v-6.6a.55.55,0,1,1,1.1,0v6.6a.55.55,0,1,1-1.1,0Zm5.5,0v-6.6a.55.55,0,0,1,1.1,0v6.6a.55.55,0,0,1-1.1,0Zm-2.75,0v-6.6a.55.55,0,1,1,1.1,0v6.6a.55.55,0,1,1-1.1,0ZM14.3,21.45v6.6a.55.55,0,1,1-1.1,0v-6.6a.55.55,0,1,1,1.1,0Zm-3.3,0v6.6a.55.55,0,0,1-1.1,0v-6.6a.55.55,0,1,1,1.1,0Zm-3.3,0v6.6a.55.55,0,0,1-1.1,0v-6.6a.55.55,0,1,1,1.1,0Zm-3.3,0v6.6a.55.55,0,1,1-1.1,0v-6.6a.55.55,0,1,1,1.1,0Zm0,0" transform="translate(198.001 777.934)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

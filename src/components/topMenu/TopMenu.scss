@@ -1,0 +1,76 @@
+@import "../../styles/item_attributes.scss";
+
+#drop-down-css {
+  .circ-button {
+    padding: 2px;
+    width: 8.6rem;
+  }
+  .select-opt {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-right: 15px;
+    opacity: 1;
+  }
+
+  fieldset {
+    border-style: solid;
+    border-width: thin;
+    border-color: #{$lightBlue};
+    border-radius: 10px;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 0.8rem;
+    color: #{$formFieldBlue};
+    -webkit-align-items: center;
+    align-items: center;
+    opacity: 1;
+    font-family: "Dubai";
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 4px;
+  }
+}
+
+.agent-interface-class {
+  width: 15rem;
+  left: 0.5% !important;
+  right: 0.5% !important;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.item.sc-ion-label-md-h,
+.item .sc-ion-label-md-h {
+  font-family: "Dubai";
+  --color: #{$formFieldBlue};
+}
+.horizontal-scroll {
+  overflow-y: auto;
+}
+.filter-buttons {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+  .circ-button {
+    --background: transparent;
+    --border-radius: 10px;
+    font-size: 0.8rem;
+    color: $black2;
+    --border-style: solid;
+    --border-width: thin;
+    --border-color: #{$lightBlue};
+    opacity: 1;
+    font-family: "Dubai";
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

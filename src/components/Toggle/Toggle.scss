@@ -1,0 +1,10 @@
+ion-toggle {
+  overflow: visible;
+
+  contain: none;
+  --background-checked: #1360d2;
+
+  // --handle-background: #7a49a5;
+  // --handle-background-checked: #000;
+  //--handle-background-checked: #fff url("/assets/location.svg") no-repeat center / contain;
+}

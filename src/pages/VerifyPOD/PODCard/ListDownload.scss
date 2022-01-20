@@ -1,0 +1,33 @@
+@import "../../../styles/item_attributes.scss";
+
+.list-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10%;
+    //justify-content: center;
+    //align-items: center;
+}
+.line-row {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    //width: 95%;
+    .row-item1 {
+        display: flex;
+        //flex: 1;
+        width: 20%;
+    }
+    .row-item2 {
+        display: flex;
+        //flex: 1;
+        width: 60%;
+        font-size: 12px;
+    }
+    .row-item3 {
+        display: flex;
+        // flex: 1;
+        width: 20%;
+        flex-direction: row-reverse;
+    }
+}

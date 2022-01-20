@@ -1,0 +1,47 @@
+@import "../../styles/item_attributes.scss";
+
+ion-card {
+    @include box_shadow;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        .border-bottom {
+            border-bottom: 2px dashed #d6d6d6;
+            padding-bottom: 1rem;
+        }
+        .top-part {
+            display: flex;
+            .first-row {
+                font-size: 0.9rem;
+                font-weight: bold;
+                color: #{$formFieldBlue};
+                padding-bottom: 0.5rem;
+            }
+            .second-col {
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                margin-left: 0.7rem;
+                .sec-row {
+                    font-weight: bold;
+                    ion-label {
+                        font-weight: normal;
+                    }
+                }
+            }
+            .third-col {
+                display: flex;
+                flex-direction: row-reverse;
+                flex: 1;
+            }
+            .cont-icon {
+                display: flex;
+                width: 10%;
+            }
+        }
+    }
+}
+ion-card.multi-card {
+    //margin-left: unset;
+}

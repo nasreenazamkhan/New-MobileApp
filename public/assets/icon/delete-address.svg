@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_1101" x="0" y="0" width="600" height="600" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="delete_address" data-name="delete address" transform="translate(-14.365 9)">
+    <g transform="matrix(1, 0, 0, 1, 14.37, -9)" filter="url(#Ellipse_1101)">
+      <circle id="Ellipse_1101-2" data-name="Ellipse 1101" cx="19.5" cy="19.5" r="19.5" transform="translate(9 8)" fill="#ff3e3e"/>
+    </g>
+    <g id="XMLID_1473_" transform="translate(36.099 9.831)">
+      <path id="XMLID_1476_" d="M93.446,175.281a1.527,1.527,0,0,0,1.529,1.454h6.206a1.527,1.527,0,0,0,1.529-1.454L103.6,165H92.552Zm6.163-7.73h1.021v5.613H99.609Zm-2.041,0h1.021v5.613H97.568Zm-2.041,0h1.021v5.613H95.527Z" transform="translate(-91.445 -159.387)" fill="#fff"/>
+      <path id="XMLID_1481_" d="M69.185,2.551V1.531A1.533,1.533,0,0,0,67.654,0H65.613a1.533,1.533,0,0,0-1.531,1.531V2.551H60V4.592H73.267V2.551Zm-4.082,0V1.531a.511.511,0,0,1,.51-.51h2.041a.511.511,0,0,1,.51.51V2.551Z" transform="translate(-60)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

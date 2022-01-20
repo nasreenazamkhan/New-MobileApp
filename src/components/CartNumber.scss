@@ -1,0 +1,25 @@
+.blueBg {
+    --background: #26438ffa;
+    height: 1.6875rem;
+    min-width: 1.375rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    top: -2.3rem;
+    position: absolute;
+}
+.popover-content {
+    transform-origin: left top;
+    /* display: flex; */
+    /* justify-content: center; */
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    bottom: 100px;
+    width: 85%;
+    margin: 0 auto;
+    right: 0;
+    // top: unset !important;
+}

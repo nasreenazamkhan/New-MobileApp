@@ -1,0 +1,7 @@
+{
+  "name": "Cargoes LIFT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

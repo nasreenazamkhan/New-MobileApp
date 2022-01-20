@@ -1,0 +1,138 @@
+@import "../styles/item_attributes.scss";
+
+ion-header {
+  // height: 13.5%;
+}
+ion-toolbar.header {
+  background-size: contain;
+  background-repeat: no-repeat;
+  --background: url("/assets/img/declaration-bg.svg") no-repeat cover fixed center;
+  background: url("/assets/img/declaration-bg.svg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100%;
+  display: flex;
+  .mainContainer {
+    display: flex;
+    // flex-direction: column;
+    padding-bottom: 6%;
+    .backArrow {
+      display: flex;
+      width: 10%;
+      zoom: 0.8;
+      /* padding-left: 10px; */
+      color: white;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+    }
+    .header-label {
+      display: flex;
+      width: 80%;
+      /* padding-left: 10px; */
+      color: white;
+      /* align-items: center; */
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: normal;
+      letter-spacing: 0.16rem;
+      text-transform: uppercase;
+    }
+    .header-right {
+      display: flex;
+      width: 10%;
+      /* padding-left: 10px; */
+      color: white;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .header-right ion-button {
+      --color: #fff;
+    }
+    .selectAllBg {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      opacity: 0.8;
+      background: #0e1b3d 0% 0% no-repeat padding-box;
+      align-items: center;
+      .checkBoxLabelCol {
+        display: flex;
+        font: normal normal normal 20px/27px Dubai-Light;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        margin-left: 5%;
+      }
+      .checkBoxContainer {
+        display: flex;
+        padding-left: 10%;
+      }
+    }
+  }
+}
+
+:root {
+  .popover-content {
+    left: 0 !important;
+    width: 100%;
+  }
+  .sc-ion-popover-md-h {
+    --backdrop-opacity: var(--ion-backdrop-opacity, 0);
+    --box-shadow: 0px 3px 6px 3px #00000029;
+  }
+}
+
+ion-toolbar.agent-code-header {
+  height: 43%;
+  display: flex;
+  position: absolute;
+  top: 58%;
+  ion-select {
+    font-size: 0.9rem;
+    color: #{$formFieldBlue};
+    font-family: "Dubai";
+    font-weight: 600;
+    margin-top: -12px;
+    padding-bottom: 8px;
+  }
+  ion-select::part(icon) {
+    display: none;
+  }
+  .select-disabled,
+  .item-select-disabled ion-label {
+    opacity: 1;
+  }
+  .arrow-down-icon {
+    position: absolute;
+    right: 1rem;
+    bottom: 1.3rem;
+    font-size: 1.5rem;
+    color: #87a3ea;
+  }
+}
+
+.agent-interface {
+  width: 99%;
+  left: 0.5% !important;
+  right: 0.5% !important;
+  border-radius: 5px;
+}
+.select-agent-opt {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #{$formFieldBlue};
+  padding-right: 15px;
+  opacity: 0.9;
+}
+
+.item.sc-ion-label-md-h,
+.item .sc-ion-label-md-h {
+  font-family: "Dubai";
+}

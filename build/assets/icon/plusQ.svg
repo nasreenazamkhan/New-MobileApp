@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="43" viewBox="0 0 43 43">
+  <defs>
+    <filter id="Ellipse_47" x="0" y="0" width="43" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Plus_open" data-name="Plus open" transform="translate(-315 -215)">
+    <g transform="matrix(1, 0, 0, 1, 315, 215)" filter="url(#Ellipse_47)">
+      <circle id="Ellipse_47-2" data-name="Ellipse 47" cx="12.5" cy="12.5" r="12.5" transform="translate(9 6)" fill="#87a3ea"/>
+    </g>
+    <line id="Line_75" data-name="Line 75" y2="12" transform="translate(336.5 226.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_76" data-name="Line 76" x2="13" transform="translate(330.5 232.5)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

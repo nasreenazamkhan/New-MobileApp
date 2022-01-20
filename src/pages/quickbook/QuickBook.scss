@@ -1,0 +1,198 @@
+@import "../../styles/item_attributes.scss";
+
+.quick-book-page {
+  .quick-book-content {
+    --background: #{$darkBlue};
+
+    ion-tab-button.tab-selected {
+      height: 53%;
+      background: #389bff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 5px 6px #00000029;
+      opacity: 1;
+      margin-left: 10px;
+      margin-right: 10px;
+      ion-label {
+        text-align: left;
+        font: normal normal bold 14px/17px Dubai;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        text-transform: uppercase;
+      }
+    }
+    ion-tab-button {
+      text-transform: uppercase;
+      box-shadow: 0px 5px 6px #00000029;
+      height: 53%;
+      box-shadow: 0px 5px 6px #00000029;
+      opacity: 1;
+      margin-left: -3px;
+      margin-right: -8px;
+      ion-label {
+        text-align: left;
+        font: normal normal bold 10px/12px Dubai;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        text-transform: uppercase;
+      }
+    }
+    ion-tab-button.tab-disabled {
+      background: white;
+      font-size: 14px;
+      font-family: "Dubai-Regular";
+      box-shadow: 0px 5px 6px #00000029;
+      ion-label {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #000000;
+        letter-spacing: 1px;
+        opacity: 1;
+      }
+    }
+
+    .header {
+      height: 10%;
+    }
+    .form-div {
+      margin-top: 0.8rem;
+      margin-left: 1.25rem;
+      margin-right: 1.25rem;
+      padding-top: 1.25rem;
+      height: 90%;
+      background-color: $white;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 1rem;
+      overflow: hidden;
+      position: relative;
+
+      .quick-tabButton {
+        max-width: none;
+      }
+
+      .book-quick {
+        height: 100%;
+        overflow: auto;
+        padding-bottom: 2rem;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 3.5rem;
+
+        .validationMessage {
+          @include validation-message;
+          text-align: center;
+        }
+        .componentMargins {
+          @include componentMargins;
+          .paymentBreakUprightSide {
+            display: flex;
+            flex-direction: row-reverse;
+            flex: 1;
+            .bluePaymentLable {
+              font-weight: 600;
+              color: #0568ae;
+              font-size: 1rem;
+            }
+            .payLabel {
+              @include boldBlackText;
+              text-align: right;
+            }
+          }
+        }
+        .relativePosition {
+          position: relative;
+        }
+
+        .twoItem {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          margin-left: unset;
+        }
+        .eachElement {
+          width: 50%;
+        }
+      }
+
+      .button-div {
+        display: flex;
+        flex-basis: 0;
+        position: absolute;
+        // width: 90%;
+
+        ion-button {
+          flex-grow: 1;
+          --border-style: solid;
+          --border-width: thin;
+          // position: absolute;
+        }
+        .quick-content {
+          overflow-y: scroll;
+          height: 80%;
+        }
+      }
+    }
+  }
+  ion-footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    --background: linear-gradient(#ea2428, #0e1b3d);
+    width: 76px;
+    height: 70px;
+    --border-radius: 35px;
+    align-items: center !important;
+    display: flex;
+    z-index: 999;
+    margin: auto;
+    left: 0;
+    bottom: 4%;
+    right: 0;
+
+    ion-toolbar {
+      --background: transparent;
+      --background-color: transparent;
+    }
+
+    .button-div {
+      display: flex;
+      justify-content: center;
+      @include button_box_shadow;
+
+      .button-holder {
+        @include icon_submit_button_holder;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+#wrapper {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+#container {
+  height: 350px;
+  overflow-y: scroll;
+  border: solid #000 1px;
+}
+.sticky {
+  position: absolute;
+}
+.right {
+  right: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.declaration-tab.ion-page.ion-page-invisible {
+  opacity: 1;
+}
+.topMargin {
+  margin-top: -1rem;
+}
+fieldset {
+  height: auto;
+}

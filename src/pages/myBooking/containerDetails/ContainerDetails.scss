@@ -1,0 +1,168 @@
+@import "../../../styles/item_attributes.scss";
+
+#container-details {
+    @include page_container;
+    font-family: "Dubai";
+    font-weight: 600;
+    .container-toolbar-row {
+        width: 100%;
+        height: 76px;
+        background: #eff3ff 0% 0% no-repeat padding-box;
+        border: 1px solid #dfdfdf;
+
+        .container-col {
+            text-align: center;
+            //zoom: 2.5;
+            padding: 5px;
+            // padding-top: 5px;
+            vertical-align: middle;
+        }
+
+        .background {
+            background: #dbe1ff 0% 0% no-repeat padding-box;
+        }
+        .download {
+            zoom: 1.7;
+            display: flex;
+            justify-content: center;
+        }
+        .right-align {
+            right: 0;
+            position: absolute;
+        }
+        .container-col-amnt {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #fff;
+            background: transparent linear-gradient(180deg, #3590eb 0%, #87c3fe 100%) 0% 0% no-repeat padding-box;
+            padding: 0;
+            vertical-align: middle;
+            padding-top: 5px;
+        }
+
+        .padding-left {
+            padding-left: 25px;
+        }
+
+        .data-font {
+            color: #0e1b3d;
+            font-size: 1.2rem;
+            padding: 0;
+            padding-top: 8px;
+            height: 2rem;
+        }
+        .title-font {
+            color: #0e1b3d;
+            font-size: 0.8rem;
+            padding: 0;
+        }
+    }
+
+    .booking-number-row {
+        // padding: 8px;
+        // padding-bottom: 0;
+        // padding-top: 20px;
+        // .number {
+        //     color: #0e1b3d;
+        //     font-size: 1.2rem;
+        // }
+        // .date {
+        //     color: #505050;
+        //     font-size: 0.9rem;
+        // }
+        margin-left:1.5rem
+    }
+    .regular-font {
+        color: #848484;
+        font-size: 1rem;
+    }
+    .noData {
+        text-align: center;
+        padding: 20px;
+        @include light_shadow;
+        border-radius: 4px;
+    }
+}
+
+#slide-up-details {
+    font-family: "Dubai";
+    font-weight: 600;
+    padding: 18px;
+    padding-right: 12px;
+
+    .label-text {
+        margin-left: 1.5rem;
+        // margin-bottom: 1rem;
+    }
+
+    .header-text {
+        border-bottom: 4px solid #ff3e3e;
+        width: 20%;
+        margin: 0;
+        margin-left: 1.5rem;
+    }
+
+    ion-icon {
+        font-size: 2rem;
+    }
+
+    .row-text {
+        font-size: 16px;
+        color: #848484;
+        padding-top: 10px;
+    }
+
+    .column-space {
+        padding: 0;
+    }
+
+        .label-font{
+            font-size : 1rem;
+        }
+    
+    .data-text {
+        font-size: 16px;
+        color: #{$formFieldBlue};
+    }
+
+        .icon-font{
+            font-size: 1rem;
+            margin-right: 5px;
+        }
+
+    .link-text {
+                color: #E91818;
+        color: #e91818;
+        text-align: center;
+    }
+
+    .blue-link-text {
+        color: #0568ae;
+        text-align: center;
+        text-decoration: underline;
+        font: normal normal normal 17px/20px Dubai-Light;
+        letter-spacing: 0px;
+        opacity: 1;
+        font-weight: 600;
+        display: flex;
+        flex: 1;
+    }
+}
+
+#confirm-screen {
+    text-align: center;
+    font-family: "Dubai";
+    letter-spacing: 0px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    font-weight: 600;
+    margin-bottom: 20px;
+    .clicked {
+        border-bottom: 2px solid #0e1b3d;
+        color: #1a73cd;
+    }
+    .not-clicked {
+        border-bottom: none;
+        color: #6c7b8a;
+    }
+}

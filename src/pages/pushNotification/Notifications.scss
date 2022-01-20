@@ -1,0 +1,41 @@
+@import "../../styles/item_attributes.scss";
+
+#notifications-page {
+    .page-content {
+        @include page_container;
+        color: #{$formFieldBlue};
+        font-family: "Dubai";
+        font-weight: 600;
+    }
+    .divider{
+        padding-bottom: 20%;
+        @include bottom_divider;
+    }
+    .full-width {
+        margin-top: 10px;
+        padding: 0;
+        @include fullWidth;
+    }
+    .sort-divider {
+        border-bottom: 3px solid #FF3E3E;
+        width: 8%;
+    }
+    .data-font {
+        font-size: 1.2rem;
+    }
+    .accessed-status {
+        margin: 0 auto;
+        padding-bottom: 20%;
+        padding-top: 3%;
+        width: 90%;
+    }
+    .notification-font {
+        color: #000000;
+        font-size: 1rem;
+    }
+    .notification-date {
+        color: #848484;
+        font-size: 1rem;
+    }
+
+}

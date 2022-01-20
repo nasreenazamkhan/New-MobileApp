@@ -1,0 +1,98 @@
+@import "../../../../styles/item_attributes.scss";
+
+#booking-card{
+        .lightShadow {
+            @include light_shadow;
+            font-family: "Dubai";
+            font-weight: 600;
+            border-radius: 4px;
+        .card-content{
+            padding: 0.6rem;
+            padding-top: 1rem;
+            padding-bottom: 0.1rem;
+            }
+            .regular-font {
+                color: #848484;
+                font-size: 0.9rem;
+            }
+            .padding-left{
+                padding-left: 10px;
+            }
+            .title-font {
+              color: #848484;
+              font-size: 0.8rem;
+            } 
+            .data-font {
+                color: #0e1b3d;
+                font-size: 0.9rem;
+            }
+            .booking-number-font {
+              color: #0e1b3d;
+              font-size: 1rem;
+          }
+              .booking-container-status {
+                text-transform: uppercase;
+                font-size: 0.9rem;
+              }
+              .booking-receipt-icon {
+                zoom: 3.5;
+                vertical-align: middle;
+              }
+              .payment-pending-card-content {
+                padding: 0;
+                font-size: 0.9rem;
+                color: #000;
+                border-top: 1px #EDEDED solid ;
+                ion-col {
+                  padding-left: 15px;
+                  padding-top: 10px;
+                }
+              }
+              .payment-fail-card-content {
+                padding: 0;
+                font-size: 0.9rem;
+                color: #E91818;
+                border-top: 1px #EDEDED solid;
+                ion-col {
+                  padding-left: 15px;
+                  padding-top: 10px;
+                }
+              }
+              .payment-icon {
+                zoom: 1.5;
+                margin-right: 0.2rem;
+                vertical-align: middle;
+              }
+              .repayment-icon {
+                zoom: 1.1;
+                margin-right: 0.5rem;
+                vertical-align: middle;
+              }
+              .repayment-text {
+                color: #1360D2;
+                text-decoration: underline;
+              }
+              .container-icon {
+                zoom: 2;
+                vertical-align: middle;
+              }
+            .container-status-row{
+              padding: 0;
+              font-size: 0.8rem;
+              border-top: 1px #EDEDED solid;
+              .avatar {
+                width: 25px;
+                height: 20px;
+                font-weight: 100;
+                font-size: 0.7rem;
+                border-radius: 10px;
+                border: 2px solid transparent;
+                vertical-align: middle;
+                text-align: center;
+                color: #fff;
+              }
+            }
+        }
+        
+}
+

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Dubai"; //This is what we are going to call
+  src: url("../assets/fonts/Dubai-Regular.ttf");
+}
+@font-face {
+  font-family: "Dubai-Bold"; //This is what we are going to call
+  src: url("../assets/fonts/Dubai-Bold.ttf");
+}
+@font-face {
+  font-family: "Dubai-Light"; //This is what we are going to call
+  src: url("../assets/fonts/Dubai-Light.ttf");
+}
+@font-face {
+  font-family: "Dubai-Medium"; //This is what we are going to call
+  src: url("../assets/fonts/Dubai-Medium.ttf");
+}
+
+@mixin fontSet($fontsize) {
+  @media (max-width: 290px) {
+    font-size: $fontsize * 0.75;
+    // background-color: red;
+  }
+
+  @media (min-width: 291px) and (max-width: 400px) {
+    font-size: $fontsize * 0.875;
+    // background-color: green;
+  }
+
+  @media (min-width: 401px) {
+    font-size: $fontsize;
+    // background-color: blue;
+  }
+}
+
+html,
+body {
+  @include fontSet(16px);
+}
+ion-content {
+  --background: url(/assets/icon/bg.svg) center no-repeat;
+  background-size: 100%;
+}
+
+* {
+  font-family: "Dubai";
+}

@@ -1,0 +1,54 @@
+@import "../../styles/item_attributes.scss";
+.margin {
+    @include componentMargins;
+    margin-bottom: 1.25rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    .address-card {
+        //margin-top: 7%;
+        @include box_shadow;
+        padding-left: 1rem;
+    }
+    .address-book-icon {
+        zoom: 1.8;
+        position: relative;
+        z-index: 10;
+        top: 6%;
+        bottom: 6%;
+    }
+    .floatLeft {
+        float: right;
+    }
+    .absolutePosition {
+        position: absolute;
+        margin-top: 1rem;
+    }
+    .address-card {
+        display: flex;
+        // flex-direction: column;
+        .card-cont {
+            width: 100%;
+            display: flex;
+        }
+        .first-col {
+            display: flex;
+            width: 80%;
+            flex-direction: column;
+            .col-content {
+                display: flex;
+                text-align: left;
+                font: normal normal normal 15px/25px Dubai;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+            }
+        }
+        .sec-col {
+            display: flex;
+            width: 20%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

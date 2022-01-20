@@ -1,0 +1,39 @@
+@import "../../styles/item_attributes.scss";
+
+.login-tnc {
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.25rem;
+    color: $formMessageGray;
+    line-height: 1.25rem;
+
+    .tnc {
+        color: #1360d2;
+        text-decoration: underline;
+        font: normal normal bold 14px/17px Dubai;
+        letter-spacing: 0px;
+        color: #1a73cd;
+        opacity: 1;
+        font-weight: bold;
+    }
+    .location-label {
+        padding: 0.8rem;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.location-selected {
+    text-align: left;
+    font: normal normal normal 14px/21px Dubai-Regular;
+    letter-spacing: 0px;
+    color: #090909;
+    opacity: 1;
+    padding-left: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,95 @@
+@import "../../styles/item_attributes.scss";
+
+.form-element-group {
+  // @include form_element_group;
+
+  .blue-underLine {
+    border-bottom: 3px solid #7cc2f2;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    .textInputWithBlueBorder {
+      margin-top: 1rem;
+      //margin-bottom: 1rem;
+    }
+  }
+
+  fieldset {
+    height: 3.9rem;
+    border-style: solid;
+    border-color: #d1d3d8;
+    border-style: solid;
+    border: 0.13rem solid #b8bcc7;
+    border-radius: 0.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+
+    legend {
+      padding-left: 2px;
+      padding-right: 3px;
+      background-color: #ffffff;
+      color: #b8bcc7;
+      font-family: "Dubai";
+      font-size: 0.8rem;
+    }
+  }
+  ion-text ion-label.validation-message {
+    @include validation-message;
+    color: #ff7575;
+  }
+
+  ion-label {
+    font-weight: bold;
+    font-family: "Dubai";
+    //color: #b8bcc7;
+    font-size: 0.9rem;
+  }
+
+  ion-input {
+    --padding-start: 10px;
+    font-weight: bold;
+    height: 1.3rem;
+    font-size: 0.9rem;
+    font-family: "Dubai";
+    color: $formFieldBlue;
+    .textInput {
+      font-family: "Dubai";
+      font-weight: 600;
+      font-size: 2rem;
+      color: red;
+    }
+  }
+
+  .errors {
+    margin: 2px;
+    margin-left: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .description {
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+}
+div.smallUnderline::after {
+  left: 0%;
+  width: 50%;
+  content: "";
+  background: #e91818;
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 42px;
+  top: 2rem;
+}
+.customStyle {
+  margin-bottom: 1rem;
+}
+
+.icon-button {
+  height: unset;
+}

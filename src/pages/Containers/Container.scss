@@ -1,0 +1,16 @@
+@import "../../styles/item_attributes.scss";
+
+.container {
+    .container-Content {
+        .container-count {
+            //margin-left: 1rem;
+            color: #{$royalBlue};
+            font-weight: 600;
+        }
+        .boxShadow {
+            // box-shadow: 0px 3px 16px #78BBFF !important;
+            // border: 1px solid #78BBFF !important;
+            border-left: 5px solid #0e1b3d !important;
+        }
+    }
+}

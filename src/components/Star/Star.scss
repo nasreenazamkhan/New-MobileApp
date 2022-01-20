@@ -1,0 +1,14 @@
+@import "../../styles/item_attributes.scss";
+
+.starContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    .eachStar {
+        display: flex;
+        width: 15%;
+    }
+}

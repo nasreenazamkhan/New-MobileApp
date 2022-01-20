@@ -1,0 +1,106 @@
+@import "../../styles/item_attributes.scss";
+.BookTruck-Location {
+  font-size: 1rem;
+
+  .main-content {
+    padding-left: 3%;
+    padding-right: 10px;
+  }
+  ion-toggle {
+    height: 1rem;
+  }
+  ion-col {
+    display: flex;
+    align-items: center;
+  }
+  .truck-num-dropdown {
+    width: 3rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px #00000029;
+    border: 1px solid #0e1b3d;
+    border-radius: 7px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+  }
+
+  .black-label {
+    @include lightBlackText;
+    font-size: 1rem;
+    font-weight: bold;
+    .right-item {
+      // display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .alert-message {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #168fe4;
+    ion-icon {
+      margin-right: 5px;
+    }
+  }
+}
+.sub-content {
+  margin-top: 0.5rem;
+  @include componentMargins;
+  margin-left: unset;
+}
+.twoItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: unset;
+}
+.eachElement {
+  width: 60%;
+}
+.centerElement {
+  width: 20%;
+}
+.absolutePosition {
+  position: absolute;
+}
+.lastElement {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fullWidth {
+  width: 100%;
+}
+.decla-info {
+  display: flex;
+  flex: 1;
+  padding-top: 1.5rem;
+  .decla-number {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #0e1b3d;
+    margin-left: 1rem;
+  }
+  .do-validity {
+    flex-direction: row-reverse;
+    flex: 1;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+
+    .validity-text {
+      font: normal normal normal 0.8rem Dubai;
+      letter-spacing: 0px;
+      color: #848484;
+      opacity: 1;
+      font-family: "Dubai-Light";
+      font-weight: 600;
+      margin-right: 1rem;
+    }
+  }
+}
+.container-list-booktruck {
+  //padding-left: 5%;
+}

@@ -1,0 +1,93 @@
+@import "../../styles/item_attributes.scss";
+
+#login-page {
+  .login-logo {
+    height: 35vh;
+    background-color: $darkBlue;
+    background: url(/assets/img/LoginBG.svg) no-repeat fixed center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+  .main-container {
+    position: relative;
+  }
+
+  .form-content {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    @include border-radius;
+    @include box_shadow;
+
+    .login-header {
+      text-align: center;
+      padding: 1.25rem;
+      @include header_style;
+      hr {
+        @include horizontal_line_header;
+      }
+    }
+    .form-element-group {
+      @include form_element_group;
+
+      fieldset {
+        @include fieldset;
+      }
+      // .validation-message {
+      //   @include validation-message;
+      // }
+    }
+
+    .form-section {
+      ion-item {
+        border-style: none;
+        --border-width: 0px;
+      }
+
+      .validation-message {
+        @include validation-message;
+      }
+      .genralError {
+        padding-left: 10%;
+      }
+      ion-input {
+        --padding-start: 10px;
+        height: 1rem;
+      }
+    }
+    .login-tnc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.25rem;
+      color: $formMessageGray;
+      line-height: 1.25rem;
+
+      .tnc {
+        color: $red;
+        text-decoration: underline;
+      }
+    }
+    .button-div {
+      display: flex;
+      justify-content: center;
+      @include button_box_shadow;
+
+      .button-holder {
+        @include icon_submit_button_holder;
+      }
+    }
+  }
+}

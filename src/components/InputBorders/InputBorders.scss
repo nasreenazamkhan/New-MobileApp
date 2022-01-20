@@ -1,0 +1,39 @@
+@import "../../styles/item_attributes.scss";
+
+.form-element-group fieldset.fullBlackBoder {
+    height: 2rem;
+    border-color: black;
+    padding: unset;
+}
+
+.blue-underLine {
+    border-bottom: 3px solid #7cc2f2;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    .textInputWithBlueBorder {
+        margin-top: 1rem;
+        //margin-bottom: 1rem;
+    }
+}
+
+.black-underLine {
+    border-bottom: 2px solid #505050;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    //padding-bottom: 0.6rem;
+    margin-right: 0.6rem;
+    .textInputWithBlueBorder {
+        margin-top: 1rem;
+        //margin-bottom: 1rem;
+    }
+}
+.no-underLine {
+    border-bottom: unset;
+}
+.firstElement {
+    margin-left: unset;
+}

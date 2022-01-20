@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997609313239",
+    "project_id": "last-mile-4be58",
+    "storage_bucket": "last-mile-4be58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997609313239:android:cdc7009c786959f2dcb192",
+        "android_client_info": {
+          "package_name": "com.dt.ptms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997609313239-0plm3dkem7n2mcpigk7m33j0cqqtbi17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNWr5nSnsPEzK4cz0PSEcXuTcBu-VHULE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997609313239-0plm3dkem7n2mcpigk7m33j0cqqtbi17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+
+  .mapCard {
+    width: 100%;
+    margin-left: -1px;
+    height: 55%;
+    margin: 0;
+  }
+
+  .scrollCard {
+    overflow: scroll;
+  }
+
+  .redColor {
+    color: #FF7575;
+    font-size: 1rem;
+    font-family: "Dubai";
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .closeIconMap {
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1.8;
+  }

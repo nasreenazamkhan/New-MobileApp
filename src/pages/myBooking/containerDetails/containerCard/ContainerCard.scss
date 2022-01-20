@@ -1,0 +1,77 @@
+@import "../../../../styles/item_attributes.scss";
+
+#container-card {
+    font-weight: 600;
+    font-family: "Dubai";
+        .lightShadow {
+            @include light_shadow;
+            margin: 12px;
+            margin-top: 5px;
+            border-radius: 4px;
+            .bottomDivider-truck {
+                border-bottom: 1px solid #EDEDED;
+                margin-left: 1.1rem;
+                width: 91.5%;
+                .marginLeftTop-truck {
+                    margin-top: 8px;
+                    margin-bottom: 5px;
+                    padding: 0;
+                    width: 100%;
+                  }
+                  .regular-font {
+                    color: #848484;
+                    font-size: 0.875rem;
+                  }
+                  .data-font {
+                    color: #0e1b3d;
+                    font-size: 0.875rem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                  } 
+                  .drop-zone{
+                    color: #1360D2;
+                    text-decoration: underline;
+                  }
+                  .margin-2nd-row {
+                    margin:0;
+                    margin-top: 5px;
+                    padding: 0;
+                    width: 100%;
+                  }
+              }
+              .booking-row {
+                height: 40px;
+                .right-divider {
+                    border-right: 1px solid #c5c5c5;
+                    margin: 0px;
+                    height:  70%;
+                    margin-top: 5px;
+                    padding-bottom: 5px;
+                    text-align: center;
+                    vertical-align: middle;
+                    
+                  }
+                  .right-divide-button {
+                    zoom: 1.8;
+                  }
+                  .delete-button {
+                    zoom: 1.5;
+                  }
+              }
+        }
+}
+
+#slide-up-details {
+.link-text {
+    color: #E91818;
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 17px/20px Dubai-Light;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-weight: 600;
+    display: flex;
+    flex: 1;
+}
+}

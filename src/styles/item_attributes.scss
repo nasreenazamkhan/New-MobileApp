@@ -1,0 +1,186 @@
+@import "./colors";
+@import "./base_layout";
+
+@mixin border_radius {
+  border-radius: 0.625rem;
+}
+
+@mixin bottom_divider {
+  border-bottom: 1px solid #c7c2c2;
+  margin: 0 auto;
+  width: 90%;
+}
+
+@mixin page_container {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  background-color: #ebf1ff 0% 0% no-repeat padding-box;
+}
+
+@mixin fullWidth {
+  width: 100% !important;
+}
+
+@mixin light_shadow {
+  // box-shadow: 3px 3px 30px 3px #595a6d33;
+  box-shadow: 0px 3px 20px #8f94fb33;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+@mixin box_shadow {
+  // box-shadow: 3px 3px 30px 3px #8f94fb33;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #8f94fb6e;
+  //border-radius: 10px;
+  opacity: 1;
+}
+@mixin button_box_shadow {
+  box-shadow: 1px 7px 7px #8f94fb33;
+}
+@mixin header_style {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: $formFieldBlue;
+}
+
+@mixin horizontal_line_header {
+  border-width: 1px;
+  border-style: solid;
+  width: 2.5rem;
+  background-color: $formFieldBlue;
+}
+
+@mixin form_element_group {
+  margin-bottom: 1rem;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+@mixin fieldset {
+  border-style: solid;
+  border: 0.13rem solid $fieldSetBorderColor;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  legend {
+    // margin-left: 10%;
+    // font-family: "Dubai-Light";
+    font-weight: 600;
+    padding-left: 2px;
+    padding-right: 3px;
+    background-color: #ffffff;
+    color: #b8bcc7;
+  }
+}
+
+@mixin icon_submit_button_holder {
+  width: 4.75rem;
+  height: 4.75rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: -1.875rem;
+  border-radius: 2.375rem;
+  background: linear-gradient(#18274d, #153485ce);
+  color: #ffff;
+  box-shadow: 1px 7px 7px #8f94fb33;
+  font-size: 20px;
+  border: 0.5rem solid white;
+}
+@mixin floating-text {
+  font-family: "Dubai-Light";
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 3px;
+  background-color: #ffffff;
+  color: #b8bcc7;
+}
+@mixin validation-message {
+  color: #ff7575;
+  font-family: "Dubai-Regular";
+  //font-size: $fontsize;
+  font-weight: 600;
+  // padding-left: 2%;
+}
+
+@mixin componentStyle {
+  --padding-start: 10px;
+  font-weight: bold;
+  width: 100%;
+  //height: 1rem;
+  min-height: 1.3rem;
+  height: auto;
+  --padding-top: 0;
+  --padding-botton: 0;
+}
+@mixin boldBlackText {
+  text-align: left;
+  font: normal normal normal 16px/20px Dubai-Light;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+  font-family: "Dubai-Light";
+}
+@mixin componentMargins {
+  margin-bottom: 1.25rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@mixin thickUnderLine {
+  content: "";
+  background: #e91818;
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 42px;
+  top: 2rem;
+}
+@mixin lightBlackText {
+  text-align: left;
+  font: normal normal normal 16px/20px Dubai-Regular;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+  font-family: "Dubai-Light";
+}
+@mixin grayLabel {
+  text-align: left;
+  font: normal normal normal 16px/20px Dubai;
+  letter-spacing: 0px;
+  color: #848484;
+  opacity: 1;
+  font-family: "Dubai-Light";
+  font-weight: 600;
+}
+@mixin boldDarkText {
+  text-align: left;
+  font: normal normal normal 16px/20px Dubai-Regular;
+  letter-spacing: 0px;
+  color: #0e1b3d;
+  opacity: 1;
+}
+@mixin redUnderLinedText {
+  text-decoration: underline;
+  font: normal normal normal 16px/27px Dubai;
+  letter-spacing: 0px;
+  color: #e91818;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: 600;
+}
+@mixin grayText {
+  text-align: left;
+  font: normal normal normal 16px/27px Dubai-Light;
+  letter-spacing: 0px;
+  color: #696969;
+  opacity: 1;
+  font-weight: bold;
+}

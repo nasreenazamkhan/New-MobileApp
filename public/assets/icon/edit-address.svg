@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Ellipse_1101" x="0" y="0" width="600" height="600" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="edit_address" data-name="edit address" transform="translate(63.635 9)">
+    <g transform="matrix(1, 0, 0, 1, -63.63, -9)" filter="url(#Ellipse_1101)">
+      <circle id="Ellipse_1101-2" data-name="Ellipse 1101" cx="19.5" cy="19.5" r="19.5" transform="translate(9 8)" fill="#87a3ea"/>
+    </g>
+    <path id="Path_2166" data-name="Path 2166" d="M35.4,18.562l2.8,2.8-8.6,8.6-2.8-2.8Zm-9.207,9.312,2.8,2.8-3.229.433ZM37.426,16.543a.52.52,0,0,1,.772.007l2.036,2.036a.5.5,0,0,1-.012.753l-1.479,1.479-2.8-2.8Z" transform="translate(-68.036 -5.172)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

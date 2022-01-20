@@ -1,0 +1,118 @@
+#alert {
+  .text-style {
+    text-align: center;
+    vertical-align: middle;
+    color: #383838;
+    font-size: 1.1rem;
+    font-weight: 600;
+    .message2-text {
+      font-size: 0.95rem;
+      font-family: Dubai-Light;
+      font-weight: 600;
+    }
+  }
+
+  .redColor {
+    color: #ff7575;
+    font-family: "Dubai";
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 5%;
+    text-transform: uppercase;
+  }
+
+  .alert-wrapper.sc-ion-alert-md {
+    min-width: 85%;
+    padding-bottom: 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+  }
+  .alert-head {
+    // background-color: #172344;
+    // padding: 8px !important;
+    padding-top: 0;
+  }
+  .alert-title.sc-ion-alert-md {
+    color: white;
+    font-weight: 580;
+    text-align: center !important;
+    font-size: 1rem;
+    font-family: "Dubai";
+  }
+  .alert-button-role-confirm.sc-ion-alert-md {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 50%;
+    background: #1360d2 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    color: white;
+    width: 125px;
+    height: 35px;
+    font-family: "Dubai";
+    font-weight: bolder;
+  }
+  .alert-title.sc-ion-alert-ios {
+    color: white;
+  }
+  .alert-button-role-cancel.sc-ion-alert-md {
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    right: 0;
+    background-color: transparent;
+    border: 1px solid #0e1b3d;
+    border-radius: 3px;
+    letter-spacing: 0.03px;
+    color: #0e1b3d;
+    width: 125px;
+    height: 35px;
+    font-family: "Dubai";
+    font-weight: bolder;
+  }
+  .alert-button-inner.sc-ion-alert-md {
+    -ms-flex-pack: end;
+    justify-content: center !important;
+  }
+  .alert-head.sc-ion-alert-md + .alert-message.sc-ion-alert-md {
+    font-family: "Dubai";
+    font-weight: bolder;
+  }
+  .input-class {
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Dubai-Light;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .error-class {
+    border: 1px solid #e91818;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Dubai-Light;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .alert-message.sc-ion-alert-md,
+  .alert-input-group.sc-ion-alert-md {
+    padding-top: 0;
+  }
+  .link-text {
+    text-decoration: underline;
+    font-family: Dubai-Light;
+  }
+  .border {
+    border-top: 1px solid;
+    margin-bottom: 2rem;
+  }
+
+  .orange-button {
+    background: #fd6b6b 0% 0% no-repeat padding-box !important;
+    color: white !important;
+    border: unset !important;
+  }
+}

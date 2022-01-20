@@ -1,0 +1,19 @@
+@import "../../styles/item_attributes.scss";
+.download-limk-container {
+    margin-top: 3rem;
+    .each-link {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        ion-label {
+            text-align: left;
+            text-decoration: underline;
+            font: normal normal normal 20px/20px Dubai;
+            letter-spacing: 0px;
+            color: #0568ae;
+            opacity: 1;
+        }
+    }
+}

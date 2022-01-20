@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="87" viewBox="0 0 87 87">
+  <defs>
+    <filter id="Ellipse_190" x="0" y="0" width="87" height="87" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Angle_right" data-name="Angle right" transform="translate(-314 -745)">
+    <g transform="matrix(1, 0, 0, 1, 314, 745)" filter="url(#Ellipse_190)">
+      <circle id="Ellipse_190-2" data-name="Ellipse 190" cx="34.5" cy="34.5" r="34.5" transform="translate(9 5)" fill="rgba(14,27,60,0.79)"/>
+    </g>
+  </g>
+</svg>

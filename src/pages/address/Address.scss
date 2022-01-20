@@ -1,0 +1,7 @@
+@import "../../styles/item_attributes.scss";
+
+#address-page {
+    .page-content {
+        @include page_container;
+    }
+}

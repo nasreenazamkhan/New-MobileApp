@@ -1,0 +1,61 @@
+@import "../../styles/item_attributes.scss";
+
+.form-element-group {
+  @include form_element_group;
+
+  fieldset {
+    border-style: solid;
+    border-color: #d1d3d8;
+
+    border-style: solid;
+    border: 0.13rem solid #b8bcc7;
+    border-radius: 0.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 3.9rem;
+
+    legend {
+      font-weight: 600;
+      padding-left: 2px;
+      padding-right: 3px;
+      background-color: #ffffff;
+      color: #b8bcc7;
+    }
+  }
+
+  ion-datetime {
+    @include componentStyle; // --padding-start: 10px;
+    // font-weight: bold;
+    // width: 100%;
+    // height: 1rem;
+    .dropdownInput {
+      font-family: "Dubai-Regular";
+      font-weight: 600;
+      font-size: 16px;
+      color: red;
+    }
+  }
+
+  ion-datetime::part(text) {
+    margin-bottom: -0.98rem;
+  }
+  .datetime-text::part(text) {
+    margin-bottom: -16px;
+  }
+  .errors {
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+
+  .description {
+    margin: 2px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+  .leftGap {
+    left: 1rem;
+  }
+}

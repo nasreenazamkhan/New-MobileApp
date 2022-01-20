@@ -1,0 +1,85 @@
+@import "../../styles/item_attributes.scss";
+#profilePage {
+  .login-logo {
+    height: 35vh;
+    background-color: $darkBlue;
+    background: url(/assets/img/LoginBG.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+    .main-container {
+      position: relative;
+    }
+  }
+
+  .form-content {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    @include border-radius;
+    @include box_shadow;
+
+    .login-header {
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #0e1b3d;
+      hr {
+        border-width: 1px;
+        border-style: solid;
+        width: 40px;
+        background-color: #0e1b3d;
+      }
+    }
+
+    .form-section {
+      ion-item {
+        border-style: none;
+        --border-width: 0px;
+      }
+      .welcome-note {
+        @include form_element_group;
+        text-align: left;
+        /* font: normal normal normal 14px/20px Segoe UI; */
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-family: "Dubai-Light";
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+    }
+    .login-tnc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #8a9ead;
+      line-height: 20px;
+
+      .tnc {
+        color: #ea2428;
+        text-decoration: underline;
+      }
+    }
+    .button-div {
+      display: flex;
+      justify-content: center;
+      @include button_box_shadow;
+
+      .button-holder {
+        @include icon_submit_button_holder;
+      }
+    }
+  }
+}

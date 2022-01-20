@@ -1,0 +1,45 @@
+.parent-postion{
+    position: relative;
+}
+
+.suggestion-list{
+    display: block;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    overflow-y: scroll;
+    margin-top: -0.9rem;
+    border: 0.13rem solid #b8bcc7;
+    border-radius: 8px;
+}
+
+ion-item {
+    --min-height: 15px;
+}
+
+h2 {
+   padding: 0px;
+   margin : 0px;
+ }
+
+.suggestion{
+    // display: flex;
+}
+div[scrollx=true],div[scrolly=true] {
+    position: relative;
+    overflow: hidden;
+}
+
+div[scrollx=true] {
+   overflow-x: auto;
+}
+
+.scrolly{
+   overflow-y: auto;
+}
+
+.scroll-height{
+    max-height: 100px;
+}

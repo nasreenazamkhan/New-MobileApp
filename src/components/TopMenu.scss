@@ -1,0 +1,40 @@
+@import "../styles/item_attributes.scss";
+
+.horizontal-scroll {
+  overflow-y: auto;
+  position: relative;
+  /* left: 17px; */
+  padding-left: 15%;
+}
+.filter-buttons {
+  margin-top: 1rem;
+  //margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0.56rem;
+  margin-right: 0.56rem;
+
+  .circ-button {
+    --background: #{$white2};
+    --border-radius: 0.8rem;
+    font-size: 0.8rem;
+    color: $black2;
+    --border-style: solid;
+    //--border-width: thin;
+    --border-color: #{$lightBlue};
+    // border-radius: 0.8rem;
+    opacity: 1;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 0.6rem;
+    .icon-padding {
+      padding-right: 0.25rem;
+      padding-top: 0.2rem;
+    }
+  }
+  .topMenuFullArea {
+    display: flex;
+    //flex: 1;
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../../../styles/item_attributes.scss";
+
+#status-card{
+    .booking-card{
+        padding: 0;
+        .lightShadow {
+            @include light_shadow;
+        .booking-card-content{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 0;
+            text-transform: uppercase;
+            font-family: "Dubai";
+            font-weight: 600;
+            .booking-row{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                .booking-menu-type {
+                    font-size: 1.2rem;
+                    color: #000000;
+                    vertical-align: middle;
+                }
+                .booking-menu-total {
+                    font-size: 1.8rem;
+                    color: #0568ae;
+                  }
+                  .booking-menu-icon {
+                    zoom: 2;
+                    padding-top: 4px;
+                  }
+                }   
+            }
+        }
+    }
+}

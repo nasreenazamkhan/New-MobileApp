@@ -1,0 +1,22 @@
+@import "../../styles/item_attributes.scss";
+
+.container-count {
+    margin-left: 1rem;
+    color: #{$royalBlue};
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.relativePosition {
+    position: relative;
+}
+div.smallUnderline::after {
+    //left: 7%;
+    width: 50%;
+    @include thickUnderLine;
+}
+.payLabel {
+    @include boldBlackText;
+}
+.componentMargins {
+    //@include componentMargins;
+}

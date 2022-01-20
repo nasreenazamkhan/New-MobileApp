@@ -1,0 +1,18 @@
+.badge-shape{
+    background: #fbfcff;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: thin;
+    border-color: transparent;
+    opacity: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .badge-label{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

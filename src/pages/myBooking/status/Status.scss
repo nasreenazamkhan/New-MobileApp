@@ -1,0 +1,7 @@
+@import "../../../styles/item_attributes.scss";
+
+#status-page {
+    .page-content {
+        @include page_container;
+    }
+}

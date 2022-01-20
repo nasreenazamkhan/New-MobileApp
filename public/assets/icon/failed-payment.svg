@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Payment_failed" data-name="Payment failed" transform="translate(-104 -304)">
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="16" height="16" rx="8" transform="translate(104 304)" fill="#cf1414"/>
+    <g id="warning" transform="translate(107.683 286.544)">
+      <g id="Group_16414" data-name="Group 16414" transform="translate(0 20.882)">
+        <path id="Path_2400" data-name="Path 2400" d="M218.652,333.382a.427.427,0,1,0,0,.855.428.428,0,0,0,0-.855Z" transform="translate(-214.494 -328.039)" fill="#fff"/>
+        <path id="Path_2401" data-name="Path 2401" d="M8.115,27.74a1.46,1.46,0,0,0,0-1.477L5.441,21.626a1.475,1.475,0,0,0-2.561,0L.2,26.266a1.481,1.481,0,0,0,1.282,2.219H6.829A1.472,1.472,0,0,0,8.115,27.74Zm-.581-.335a.808.808,0,0,1-.706.409H1.479a.8.8,0,0,1-.7-.4.809.809,0,0,1,0-.816l2.681-4.641a.805.805,0,0,1,1.4,0L7.539,26.6A.8.8,0,0,1,7.534,27.405Z" transform="translate(0 -20.882)" fill="#fff"/>
+        <path id="Path_2402" data-name="Path 2402" d="M218.055,157.188a.465.465,0,0,0-.33.467c.01.135.019.272.029.407.029.515.058,1.019.087,1.534a.313.313,0,0,0,.32.3.32.32,0,0,0,.32-.311c0-.106,0-.2.01-.311.019-.33.039-.66.058-.99.01-.214.029-.427.039-.641a.528.528,0,0,0-.039-.214A.429.429,0,0,0,218.055,157.188Z" transform="translate(-214.002 -154.846)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

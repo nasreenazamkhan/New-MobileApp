@@ -1,0 +1,92 @@
+@import "../../styles/item_attributes.scss";
+
+.trackRound {
+    background: #0e1b3da8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 2px #00000029;
+    border: 1px solid #eeeeee;
+    border-radius: 28px;
+    margin-top: 50px;
+    width: 60px;
+    height: 60px;
+    left: -36px;
+    opacity: 1;
+    position: relative;
+    top: 5px;
+}
+.trackLine {
+    content: "";
+    top: 11px;
+    bottom: 0;
+    left: 10%;
+    border-left: 2px dashed #444;
+    margin-right: 20px;
+}
+.trackDateLabel {
+    top: 40px;
+}
+.blueRound {
+    background: #1fb4ff 0% 0% no-repeat padding-box;
+    width: 14px;
+    height: 14px;
+    left: -12px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    top: 11px;
+}
+.lightShadow {
+    box-shadow: 3px 3px 30px 3px #595a6d33;
+    //  background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+.top25 {
+    top: 25%;
+}
+.trackRound {
+    background: #0e1b3da8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 2px #00000029;
+    border: 1px solid #eeeeee;
+    border-radius: 28px;
+    margin-top: 50px;
+    width: 3.75rem;
+    height: 3.75rem;
+    left: -2.25rem;
+    opacity: 1;
+    position: relative;
+    top: 5px;
+}
+.trackRoundLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    //font-weight: 700;
+}
+.trackDateLabel {
+    top: 40px;
+}
+.trackLabelColor {
+    color: #434343;
+}
+.trackDate {
+    color: #434343;
+    font-size: 14px;
+    font-weight: 600;
+    font: normal normal bold 14px/19px Dubai-Regular;
+}
+.trackLabel {
+    margin-top: 63px;
+}
+.trackLabelSmall {
+    margin-top: 46px;
+}
+.regularFont {
+    font-family: "Dubai-Light";
+    color: #848484;
+    font-size: 16px;
+    font-weight: 600;
+}

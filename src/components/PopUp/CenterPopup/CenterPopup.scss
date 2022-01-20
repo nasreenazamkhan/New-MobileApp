@@ -1,0 +1,76 @@
+@import "../../../styles/item_attributes.scss";
+
+ion-modal.center-align-modal {
+    --height: auto;
+    --min-height: 30%;
+    --max-height: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    .modal-wrapper {
+        //width: 90vw;
+        overflow: auto;
+        padding: 4%;
+        .ion-page {
+            position: relative;
+            contain: content;
+            max-height: 90%;
+            min-height: 30%;
+            .modal-content {
+                overflow: auto;
+            }
+        }
+        .close-icon {
+            position: absolute;
+            right: 0;
+        }
+        .buttons {
+            display: flex;
+            padding-left: 10%;
+            padding-right: 10%;
+            flex: 1;
+            border-top: 1px solid #b7b7b7;
+            padding-top: 0.6rem;
+            margin-top: 0.6rem;
+            .button1 {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                background: #fd6b6b;
+                color: white;
+                border-radius: 3px;
+                text-transform: capitalize;
+                font-weight: bold;
+                font-family: "Dubai-Light";
+                padding: 2%;
+            }
+            .button2 {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                background: #1360d2;
+                margin-left: 10%;
+                color: white;
+                border-radius: 3px;
+                text-transform: capitalize;
+                font-weight: bold;
+                font-family: "Dubai-Light";
+                padding: 2%;
+            }
+        }
+        ion-textarea {
+            border: 1.6px solid #cfcfcf;
+            border-radius: 5px;
+        }
+    }
+}
+.center-align-modal .modal-wrapper {
+    border-radius: 0.5rem;
+}
+ion-label.center-popup-label {
+    @include boldDarkText;
+    font-weight: 600;
+}
+.close-icon {
+    font-size: 2rem;
+    font-weight: bold;
+}

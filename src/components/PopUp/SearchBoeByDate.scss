@@ -1,0 +1,109 @@
+@import "../../styles/item_attributes.scss";
+ion-modal.popup-container {
+    --height: auto;
+    --min-height: 30%;
+    --max-height: 60%;
+    .modal-wrapper {
+        //width: 90vw;
+        overflow: auto;
+        width: 100%;
+        .ion-page {
+            position: relative;
+            contain: content;
+            max-height: 90%;
+            min-height: 30%;
+            .modal-content {
+                overflow: auto;
+            }
+        }
+    }
+}
+.popup-container {
+    .popup-header {
+        border-bottom: 1px solid #c7c2c2;
+        width: 96%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .header-title {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0e1b3d;
+            font-family: "Dubai-Light";
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .blueCloseIc {
+            stroke: #0e1b3d;
+            padding-right: 10px;
+            font-size: 1rem;
+        }
+    }
+    .popup-content {
+        margin-top: 1rem;
+    }
+    .reset {
+        text-decoration: underline;
+        font: normal normal normal 17px/20px Dubai-Light;
+        letter-spacing: 0px;
+        color: #0e1b3d;
+        opacity: 1;
+        font-weight: 600;
+        display: flex;
+        flex: 1;
+        // text-transform: capitalize;
+    }
+    .apply-filter {
+        text-decoration: underline;
+        font: normal normal normal 17px/20px Dubai-Light;
+        letter-spacing: 0px;
+        color: #0e1b3d;
+        opacity: 1;
+        font-weight: 600;
+        display: flex;
+        flex: 1;
+        // text-transform: capitalize;
+    }
+}
+.popup-container .modal-wrapper {
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.twoItems {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    .leftCalendar {
+        padding-right: 1%;
+        width: 96%;
+    }
+    .rightCalendar {
+        padding-left: unset;
+        width: 100%;
+    }
+}
+.close-icon-container {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.close-icon {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.twoItems {
+}
+.validate-date {
+    justify-content: flex-start;
+    padding-left: 7%;
+    padding-right: 7%;
+}

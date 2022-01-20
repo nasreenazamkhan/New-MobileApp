@@ -1,0 +1,200 @@
+@import "../../styles/item_attributes.scss";
+
+.success-container {
+    display: flex;
+    .icon-container {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        flex-direction: column;
+        .successLabel {
+            font: normal normal normal 21px/28px Segoe UI;
+            letter-spacing: 0px;
+            color: #609e2e;
+            opacity: 1;
+            margin-top: 10%;
+            font-weight: 600;
+        }
+        .sub-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10%;
+            letter-spacing: 0px;
+            color: #606060;
+            /* opacity: 1; */
+            font-weight: 600;
+            font-family: "Dubai-Light";
+        }
+        .booking-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 0px;
+            color: #606060;
+            /* opacity: 1; */
+            font-weight: 600;
+            font-family: "Dubai-Light";
+        }
+        .underLine-label {
+            text-decoration: underline;
+            /* font: normal normal normal 10px/14px Segoe UI; */
+            letter-spacing: 0px;
+            color: #0568ae;
+            padding-left: 0.57rem;
+            padding-right: 0.57rem;
+        }
+        .button-outline {
+            background: transparent linear-gradient(180deg, #1e84ea 0%, #2673ce 67%, #364f91 100%) 0% 0% no-repeat
+                padding-box;
+            box-shadow: 0px 1px 4px #00000029;
+            border-radius: 8px;
+            opacity: 1;
+            color: white;
+            padding: 2%;
+            .button-label {
+                letter-spacing: 0px;
+                color: #ffffff;
+                opacity: 1;
+                font-weight: 600;
+                font-family: "Dubai-Light";
+            }
+        }
+    }
+}
+.fail-container {
+    display: flex;
+    .icon-container {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .failLabel {
+        font: normal normal normal 21px/28px Segoe UI;
+        letter-spacing: 0px;
+        color: #e91818;
+        opacity: 1;
+        margin-top: 10%;
+        font-weight: 600;
+    }
+    .sub-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10%;
+        letter-spacing: 0px;
+        color: #606060;
+        /* opacity: 1; */
+        font-weight: 600;
+        font-family: "Dubai-Light";
+    }
+    .button-outline {
+        text-align: center;
+        text-decoration: underline;
+        font: normal normal 600 20px/27px Segoe UI;
+        letter-spacing: 0px;
+        color: #ea2428;
+        opacity: 1;
+    }
+    .booking-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0px;
+        color: #606060;
+        /* opacity: 1; */
+        font-weight: 600;
+        font-family: "Dubai-Light";
+        margin-bottom: 2rem;
+    }
+}
+.pending-container {
+    display: flex;
+    .icon-container {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        flex-direction: column;
+        .pendingLabel {
+            font: normal normal normal 21px/28px Segoe UI;
+            letter-spacing: 0px;
+            color: #ff8e0d;
+            opacity: 1;
+            margin-top: 10%;
+            font-weight: 600;
+        }
+        .sub-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 10%;
+            letter-spacing: 0px;
+            color: #606060;
+            /* opacity: 1; */
+            font-weight: 600;
+            font-family: "Dubai-Light";
+        }
+        .booking-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 0px;
+            color: #606060;
+            /* opacity: 1; */
+            font-weight: 600;
+            font-family: "Dubai-Light";
+        }
+        .underLine-label {
+            text-decoration: underline;
+            /* font: normal normal normal 10px/14px Segoe UI; */
+            letter-spacing: 0px;
+            color: #0568ae;
+            padding-left: 0.57rem;
+            padding-right: 0.57rem;
+        }
+        .button-outline {
+            background: transparent linear-gradient(180deg, #1e84ea 0%, #2673ce 67%, #364f91 100%) 0% 0% no-repeat
+                padding-box;
+            box-shadow: 0px 1px 4px #00000029;
+            border-radius: 8px;
+            opacity: 1;
+            color: white;
+            padding: 2%;
+            .button-label {
+                letter-spacing: 0px;
+                color: #ffffff;
+                opacity: 1;
+                font-weight: 600;
+                font-family: "Dubai-Light";
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@import "../../../styles/item_attributes.scss";
+
+#booking-page {
+  .page-content {
+    @include page_container;
+  }
+
+  .decl-count {
+    margin-left: 0.625rem;
+    color: #3590EB;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+.horizontal-scroll {
+    overflow-y: auto;
+  }
+
+  .search-icon {
+    color: #dbe0e6;
+    zoom: 0.7;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .search-clear {
+    color: #21468d;
+    font-family: "Dubai";
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: underline;
+    padding-right: 15px;
+    margin-bottom: 25px;
+  }
+
+  .border-bottom-booking {
+    border-style: solid;
+    border-width: thin;
+    border-color: #{$lightBlue};
+    border-radius: 10px;
+    min-width: 392px;
+    max-height: 35px;
+    vertical-align: middle;
+    margin: 5px;
+    margin-top: 10px;
+    .input-box {
+      --placeholder-color:#000;
+      font-family: "Dubai";
+      font-weight: 600;
+      font-size: 14px;
+      top: -3px;
+      position: absolute;
+      border-bottom: none;
+      width: 100% !important;
+    }
+  }
+  
+}

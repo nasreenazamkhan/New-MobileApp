@@ -1,0 +1,128 @@
+@import "../styles/item_attributes.scss";
+
+.componentMargins {
+  @include componentMargins;
+  .paymentBreakUprightSide {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    .bluePaymentLable {
+      font-weight: 600;
+      color: #0568ae;
+      font-size: 1rem;
+    }
+
+    .payLabelLight {
+      @include lightBlackText;
+      text-align: right;
+      font-size: 0.9rem;
+    }
+  }
+
+  .paymentBreakUprightSidew {
+    .bluePaymentLable {
+      font-weight: 600;
+      color: #0568ae;
+      font-size: 1rem;
+    }
+
+    .payLabelLight {
+      @include lightBlackText;
+      text-align: right;
+      font-size: 0.9rem;
+    }
+  }
+  .margin-top {
+    margin-top: 1rem;
+  }
+  .payment-section {
+    border-bottom: 0.1rem solid #d7d7d7;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .no-padding-top {
+    padding-top: unset;
+  }
+}
+.relativePosition {
+  position: relative;
+}
+// div.smallUnderline::after {
+//   left: 7%;
+//   width: 50%;
+//   @include thickUnderLine;
+// }
+div.paymentBreakupUnderLine::after {
+  left: 0%;
+  @include thickUnderLine;
+}
+.payLabel {
+  @include boldBlackText;
+  font-size: 0.9rem;
+}
+.payLabelLight {
+  @include lightBlackText;
+  font-size: 0.9rem;
+}
+.twoItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 93%;
+  margin-left: 3.5%;
+}
+.paymentTopSection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.payment-requester-details {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  .form-element-group {
+    padding-left: unset;
+  }
+}
+.form-element-group {
+  padding-left: unset;
+  padding-right: unset;
+}
+.center-ele {
+  width: 10%;
+}
+.eachElement {
+  width: 50%;
+}
+.upload-section {
+  @include form_element_group;
+  display: flex;
+  align-items: center;
+  padding-left: unset;
+}
+.uploadLabel {
+  margin-left: 1rem;
+  text-decoration: underline;
+  color: #007fff;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-weight: 600;
+}
+.paymentBreakup {
+  flex: 1;
+  display: flex;
+  align-items: initial;
+}
+.paymentBreakupFirstRow {
+  flex: 1.8;
+  display: flex;
+  align-items: initial;
+  margin-right: 1rem;
+}
+.alignRight {
+  text-align: right;
+}
+.validation-message {
+  @include validation-message;
+}

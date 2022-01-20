@@ -1,0 +1,105 @@
+@import "../../styles/item_attributes.scss";
+
+.details {
+    padding: 4%;
+    .decl-details-popup {
+        display: flex;
+        //align-items: center;
+        .right-arrow {
+            fill: #cacaca;
+            zoom: 1.5;
+        }
+        .relativePosition {
+            position: relative;
+        }
+        .componentMargins {
+            //@include componentMargins;
+            padding-left: 3%;
+            div.smallUnderline::after {
+                left: 7%;
+                width: 50%;
+                @include thickUnderLine;
+            }
+            .payLabel {
+                @include boldBlackText;
+            }
+        }
+        .close-icon {
+            position: absolute;
+            right: 1rem;
+        }
+    }
+    .address-row {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        .address-text {
+            text-align: left;
+            font: normal normal normal 16 px / 20 px Dubai;
+            letter-spacing: 0px;
+            color: #848484;
+            opacity: 1;
+        }
+    }
+    .first-row {
+        display: flex;
+        flex: 1;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        .first-col {
+            display: flex;
+            flex-direction: column;
+            //flex: 1;
+            width: 45%;
+        }
+        .sec-col {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .third-col {
+            display: flex;
+            flex-direction: column;
+            //flex: 1;
+            width: 20%;
+        }
+        .static-label {
+            @include grayLabel;
+        }
+        .dyna-label {
+            @include boldBlackText;
+        }
+    }
+    .button {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        @include redUnderLinedText;
+    }
+    .close-icon {
+        position: absolute;
+        //right: 0;
+        top: 10px;
+        // padding: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+.track-job {
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 12px/27px Dubai;
+    letter-spacing: 0px;
+    color: #1360d2;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.pod-download {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 12px/27px Dubai;
+    letter-spacing: 0px;
+    color: #1360d2;
+    opacity: 1;
+}
